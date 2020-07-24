@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
 
-  <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <h1 id="title">Survey Form</h1>
-    <p id="description">This is a survey form made to practice HTML</p>
-    <form id="survey-form" >
-      <label for="name" id="name-label">name</label>
-      <input type="text" id="name" placeholder="Your name" required>
-      <label for="email" id="email-label">email</label>
-      <input type="email" id="email" placeholder="Your email"required>
-      <label for="number" id="number-label">number</label>
-      <input type="number" id="number" min="0" max="130" placeholder="How old are you?">
-      <select id="dropdown">
+<head>
+  <meta charset="UTF-8">
+  <title>Fork Me! FCC: Test Suite Template</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">This is a survey form made to practice HTML</p>
+  <form id="survey-form">
+    <label for="name" id="name-label">name</label>
+    <input type="text" id="name" placeholder="Your name" required>
+    <label for="email" id="email-label">email</label>
+    <input type="email" id="email" placeholder="Your email" required>
+    <label for="number" id="number-label">number</label>
+    <input type="number" id="number" min="0" max="130" placeholder="How old are you?">
+    <select id="dropdown">
       <option value="Im an option">Im an option</option>
-      </select>
-      
-    </form>
-    
-    <script  src="js/index.js"></script>
-  </body>
+      <option value="Im also an option">Im also an option</option>
+    </select>
+    <input type="radio" name="recommend" value="true">
+    <input type="radio" name="recommend" value="false">
+    <input type="checkbox" value="true">
+    <input type="checkbox" value="false">
+
+  </form>
+
+  <script src="js/index.js"></script>
+</body>
+
 </html>
